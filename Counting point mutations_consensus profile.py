@@ -5,14 +5,7 @@ dict_rosalind_to_dna['Rosalind_3']='ATGGATCT'
 dict_rosalind_to_dna['Rosalind_4']='AAGCAACC'
 dict_rosalind_to_dna['Rosalind_5']='TTGGAACT'
 dict_rosalind_to_dna['Rosalind_6']='ATGCCATT'
-dict_rosalind_to_dna['Rosalind_7']='ATGGCACT'
-"""
-ATGCAACT
-A: 5 1 0 0 5 5 0 0
-C: 0 0 1 4 2 0 6 1
-G: 1 1 6 3 0 1 0 0
-T: 1 5 0 0 0 1 1 6
-"""
+dict_rosalind_to_dna['Rosalind_7']='
 #print(dict_rosalind_to_dna)
 d0={}
 d1={}
