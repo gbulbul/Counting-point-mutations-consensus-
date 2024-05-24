@@ -7,7 +7,7 @@ dict_rosalind_to_dna['Rosalind_5']='TTGGAACT'
 dict_rosalind_to_dna['Rosalind_6']='ATGCCATT'
 dict_rosalind_to_dna['Rosalind_7']='ATGGCACT'
 d0,d1,d2,d3,d4,d5,d6,d7={},{},{}, {}, {},{}, {},{}
-list_0, list_1,list_2,list_3,list_4,list_5,list_6,list_7=[],[],[],[],[],[],[],[]
+list_0, list_1, list_2, list_3, list_4, list_5, list_6, list_7 = [],[],[],[],[],[],[],[]
 for key in dict_rosalind_to_dna.keys():
     list_0.append(dict_rosalind_to_dna.get(key)[0])
     list_1.append(dict_rosalind_to_dna.get(key)[1])
@@ -23,18 +23,18 @@ class CountPerString:
       def Count_to_dict(liste):
             d={}
             d['A'] = liste.count('A')
-            d['C']= liste.count('G')
-            d['G'] = liste.count('C')
+            d['C']= liste.count('C')
+            d['G'] = liste.count('G')
             d['T'] = liste.count('T')
             return d
 d0 = CountPerString.Count_to_dict(list_0)
 d1 = CountPerString.Count_to_dict(list_1)
 d2 = CountPerString.Count_to_dict(list_2)
-d3= CountPerString.Count_to_dict(list_3)
-d4= CountPerString.Count_to_dict(list_4)
+d3 = CountPerString.Count_to_dict(list_3)
+d = CountPerString.Count_to_dict(list_4)
 d5 = CountPerString.Count_to_dict(list_5)
-d6= CountPerString.Count_to_dict(list_6)
-d7= CountPerString.Count_to_dict(list_7)
+d6 = CountPerString.Count_to_dict(list_6)
+d7 = CountPerString.Count_to_dict(list_7)
 
 keys_bases = [k for k in d1.keys()]
 
